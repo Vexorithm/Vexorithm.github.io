@@ -69,7 +69,7 @@ I am actively seeking opportunities for academic collaboration and would be deli
 
 <div style="text-align: center; margin: 0 auto; max-width: 50%;">
     <div class="badge">ACM TELO</div>
-    <img src='images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
@@ -88,7 +88,7 @@ Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of s
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">IJCAI 2025</div>
-    <img src='images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
@@ -108,7 +108,7 @@ Trustworthiness reasoning aims to enable agents in multiplayer games with incomp
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">ACL 2025</div>
-    <img src='images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
@@ -125,7 +125,7 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">ACL 2025</div>
-    <img src='images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
