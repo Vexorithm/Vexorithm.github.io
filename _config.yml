@@ -30,42 +30,48 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ying Zhu"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Nanjing University of Information Science and Technology"
-  location         : "Jiangsu, China"
-  employer         :
-  pubmed           :  
-  googlescholar    : ""
-  email            : "auraithm@gmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "Auraithm"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name:
+    en                   : "Ying Zhu"
+    zh                   : "朱影"
+  avatar                 : "images/android-chrome-512x512.png"
+  bio:
+    en                   : "Nanjing University of Information Science and Technology"
+    zh                   : "南京信息工程大学"
+  location:
+    en                   : "Jiangsu, China"
+    zh                   : "中国江苏"
+  employer               :
+  pubmed                 :  
+  googlescholar          : ""
+  email                  : "auraithm@gmail.com"
+  researchgate           :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri                    :
+  bitbucket              :
+  codepen                :
+  dribbble               :
+  flickr                 :
+  facebook               :
+  foursquare             :
+  github                 : "Auraithm"
+  google_plus            :
+  keybase                :
+  instagram              :
+  impactstory            : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm                 :
+  linkedin               : # e.g., "linkedin username"
+  dblp                   : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid                  : # e.g., "https://orcid.org/xxxx"
+  pinterest              :
+  soundcloud             :
+  stackoverflow          : # http://stackoverflow.com/users/123456/username
+  steam                  :
+  tumblr                 :
+  twitter                : 
+  vine                   :
+  weibo                  :
+  xing                   :
+  youtube                :
+  wikipedia              :
 
 
 # Reading Files
