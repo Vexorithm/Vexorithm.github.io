@@ -18,110 +18,141 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 关于我
-我目前是南京信息工程大学人工智能学院的大三本科生，很荣幸能够在[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")教授的指导下学习。
 
-我当前的研究重点是进化计算、大语言模型推理、多智能体框架以及各种大语言模型应用研究。我已向人工智能领域的顶级期刊和会议（如ACM Transactions、IJCAI、ACL等）提交了多篇论文，其中代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
 
-目前，我正在[上海人工智能实验室](https://www.shlab.org.cn/ "上海人工智能实验室")实习，由[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")指导。同时，我在东京大学担任研究助理，并与[赵新杰]([https://openreview.net/profile?id=~Zhao_Xinjie1](https://scholar.google.com/citations?hl=zh-CN&user=_l5fPvEAAAAJ) "赵新杰")密切合作。
+# About Me
+大家好！I am currently an junior undergraduate student at the School of Artificial Intelligence, Nanjing University of Information Science and Technology, where I am fortunate to be advised by [Peilan Xu](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜"). 
 
-我很荣幸被认可为**Kaggle专家**，在LLM竞赛中赢得了两枚银牌。此外，我连续两年（2023年、2024年）在[IEEE CEC动态环境中寻找多个最优解竞赛](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html)中获得冠军，并在蓝桥杯中获得国家一等奖。
+My current research focuses on evolutionary computation, LLM reasoning, multi-agent frameworks, and various LLM application research. Several papers have been submitted to the top journals and conferences in the field of artificial intelligence (such as ACM Transactions, IJCAI, ACL ...), and my representative work "Density-Assisted Evolutionary Dynamic Multimodal Optimization" has been accepted by ACM TELO.
 
-我正在积极寻求学术合作的机会，并很乐意讨论潜在的合作伙伴关系。请随时通过<auraithm@gmail.com>（个人邮箱）或<evonexusx@gmail.com>与我联系。
+Currently, I am undertaking an internship at [Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室") under the mentorship of [Rui Su](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐"). Concurrently, I am working as a research assistant at The University of Tokyo, and collaborate closely with [Xinjie Zhao]([https://openreview.net/profile?id=~Zhao_Xinjie1](https://scholar.google.com/citations?hl=zh-CN&user=_l5fPvEAAAAJ) "赵新杰"). .
 
----
+I am honoured to be recognized as a **Kaggle Expert** for winning two silver medals in LLM competitions. Additionally, I won the championship in the [IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html) for two consecutive years (2023,2024), and was awarded a national first prize in the Lanqiao Cup.
 
-<span class='anchor' id='-news'></span>
-
-# 🔥 新闻
-- *2025.03*: &nbsp;🎉🎉 论文"Density-Assisted Evolutionary Dynamic Multimodal Optimization"被**ACM Transactions on Evolutionary Learning and Optimization**接收！
-- *2025.03*: &nbsp;🎉🎉 在Kaggle竞赛"LLMs - You Can't Please Them All"中获得银牌！
+I am actively seeking opportunities for academic collaboration and would be delighted to discuss potential partnerships. Please feel free to contact me at <auraithm@gmail.com> (personal email) or <evonexusx@gmail.com>.
 
 ---
 
-<span class='anchor' id='-honors-and-awards'></span>
-
-# 🏆 荣誉与奖项
-- *2025.03* 在Kaggle竞赛**"LLMs - You Can't Please Them All"**中获得银牌
-- *2024.07* 在**IEEE CEC 2024动态环境中寻找多个最优解竞赛**中获得冠军
-- *2024.06* 在蓝桥杯中获得国家一等奖
-- *2024.04* 在Kaggle竞赛**"LLM Prompt Recovery"**中获得银牌
-- *2023.07* 在**IEEE CEC 2023动态环境中寻找多个最优解竞赛**中获得冠军
+# 🔥 News
+- *2025.03*: &nbsp;🎉🎉 Paper "Density-Assisted Evolutionary Dynamic Multimodal Optimization" is accepted by **ACM Transactions on Evolutionary Learning and Optimization**.
+- *2025.03*: &nbsp;🎉🎉 Won a silver medal at Kaggle competitions "LLMs - You Can't Please Them All".
 
 ---
 
-<span class='anchor' id='-publications'></span>
+# 🎖 Honors and Awards
+- *2025.03* Won a silver medal at the Kaggle competition **"LLMs - You Can't Please Them All"**.
+- *2024.07* Won the championship in the **IEEE CEC 2024 Competition on Seeking Multiple Optima in Dynamic Environments**.
+- *2024.06* Won the national first prize in the Lanqiao Cup.
+- *2024.04* Won a silver medal at the Kaggle competition **"LLM Prompt Recovery"**.
+- *2023.07* Won the championship in the **IEEE CEC 2023 Competition on Seeking Multiple Optima in Dynamic Environments**.
 
-# 📝 发表论文
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">ACM TELO</div>
-      <img src='{{ site.baseurl }}/images/DADE.png' alt="DADE论文" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+---
 
-[Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/10.1145/3649495)
+# 📝 Publications 
+- **Density-Assisted Evolutionary Dynamic Multimodal Optimization**, **YingZhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo, **ACM TELO**.
+- **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**, **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu, **IJCAI 2025 (Under the second reviewing phase)**.
+- **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**, Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu, **ACL 2025 (Under Review)**.
+- **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA**, Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li , **ACL 2025 (Under Review)**.
+- **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**, **Ying Zhu\***, Zhao Xinjie, Irene Li, **arXiv**.
 
-**Ying Zhu**, Peilan Xu, Xinjie Zhao, Yiping Liu, Yaochu Jin
+---
 
-[PDF](https://dl.acm.org/doi/pdf/10.1145/3649495) 
-  </div>
+# 💬 Research Overview
+
+## **Density-Assisted Evolutionary Dynamic Multimodal Optimization**
+
+**Authors:** **YingZhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo
+
+**Journal: ACM Transactions on Evolutionary Learning and Optimization** (Accept)
+
+**Code: <https://github.com/EvoNexusX/2023ZhuDAEA>**
+
+
+<div style="text-align: center; margin: 0 auto; max-width: 50%;">
+    <div class="badge">ACM TELO</div>
+    <img src='images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
+ 
+### Abstract
+Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of swiftly locating and tracking multiple optimal solutions over time. The primary challenge lies in controlling the population diversity to facilitate effective exploration, all within the limitation of computational resources between consecutive environmental changes. In this paper, we study the utilization of density information derived from both current and historical populations to enhance exploration. First, for each active sub-population, we construct a density landscape based on the distribution of concurrently active sub-populations, and establish dominance relationships between candidate solutions in the sub-population based on density and fitness values, directing this sub-population towards exploring low-density promising areas. Then, for each converged sub-population, we construct a density landscape based on the distribution of sub-populations that have historically become extinct, guiding the restart of this sub-population in low-density unexploited areas. Finally, we develop a comprehensive framework of density-assisted evolutionary algorithm (DAEA), which encompasses density-assisted search and restart, also combined with initialization. Moreover, we employ prediction and memory strategies to enhance the performance of DAEA in dynamic environments. Notably, the algorithm relies on an external monitor to detect environmental changes and trigger the dynamic response strategy. DAEA is tested on the CEC'2022 dynamic multimodal optimization benchmark suite, and is compared against several state-of-the-art dynamic multimodal optimization algorithms. The experimental results demonstrate the competitiveness of DAEA in handling DMMOPs.
 
 ---
 
-<span class='anchor' id='-research-overview'></span>
+## **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**
 
-# 🔍 研究概览
+**Authors:** **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu.
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">进化计算</div>
-      <img src='{{ site.baseurl }}/images/EC.png' alt="进化计算" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+**Conference: IJCAI 2025** (Under the second reviewing phase)
 
-## 进化计算
+**Code: <https://github.com/EvoNexusX/2025ZhuGRATR>**
 
-我的研究重点是进化计算，特别是动态多模态优化（DMMO）。我提出了一种新的密度辅助进化动态多模态优化（DADE）算法，该算法利用密度估计来提高在动态环境中寻找和跟踪多个最优解的能力。该算法在IEEE CEC竞赛中表现出色，连续两年获得冠军。
 
-  </div>
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">IJCAI 2025</div>
+    <img src='images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
+ 
+### Abstract
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">大语言模型</div>
-      <img src='{{ site.baseurl }}/images/LLM.png' alt="大语言模型" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+Trustworthiness reasoning aims to enable agents in multiplayer games with incomplete information to identify potential allies and adversaries, thereby enhancing decision-making. In this paper, we introduce the graph retrieval-augmented trustworthiness reasoning (GRATR) framework, which retrieves observable evidence from the game environment to inform decision-making by large language models (LLMs) without requiring additional training, making it a zero-shot approach. Within the GRATR framework, agents first observe the actions of other players and evaluate the resulting shifts in inter-player trust, constructing a corresponding trustworthiness graph. During decision-making, the agent performs multi-hop retrieval to evaluate trustworthiness toward a specific target, where evidence chains are retrieved from multiple trusted sources to form a comprehensive assessment. Experiments in the multiplayer game \emph{Werewolf} demonstrate that GRATR outperforms the alternatives, improving reasoning accuracy by 50.5\% and reducing hallucination by 30.6\% compared to the baseline method. Additionally, when tested on a dataset of Twitter tweets during the U.S. election period, GRATR surpasses the baseline method by 10.4\% in accuracy, highlighting its potential in real-world applications such as intent analysis.
+ 
+---
 
-## 大语言模型
+## **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**
 
-我的研究兴趣还包括大语言模型（LLM）的推理能力和应用。我参与了多个LLM项目，包括在Kaggle竞赛中开发生成摘要和科学考试解决方案。我目前正在研究多智能体框架和LLM在各种领域的应用。
+**Authors:** Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu.
 
-  </div>
+**Conference: ACL 2025** (Under Review)
+
+**Code: <https://github.com/EvoNexusX/2025DingNarrativeGuide>**
+
+
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">ACL 2025</div>
+    <img src='images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
+ 
+### Abstract
+
+To enhance tourists' experiences and immersion, this paper proposes a narrative-driven travel planning framework called NarrativeGuide, which generates a geoculturally-grounded narrative script for travelers, offering a novel, role-playing experience for their journey. In the initial stage, NarrativeGuide constructs a knowledge graph for attractions within a city, then configures the worldview, character setting, and exposition based on the knowledge graph. Using this foundation, the knowledge graph is combined to generate an independent scene unit for each attraction. During the itinerary planning stage, NarrativeGuide models narrative-driven travel planning as an optimization problem, utilizing a genetic algorithm (GA) to refine the itinerary. Before evaluating the candidate itinerary, transition scripts are generated for each pair of adjacent attractions, which, along with the scene units, form a complete script. The weighted sum of script coherence, travel time, and attraction scores is then used as the fitness value to update the candidate solution set. Experimental results across four cities, i.e., Nanjing and Yangzhou in China, Paris in France, and Berlin in Germany, demonstrate significant improvements in narrative coherence and cultural fit, alongside a notable reduction in travel time and an increase in the quality of visited attractions. Our study highlights that incorporating external evolutionary optimization effectively addresses the limitations of large language models in travel planning.
 
 ---
 
-<span class='anchor' id='-educations'></span>
+## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA**
 
-# 🎓 教育经历
+**Authors:** Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li.
 
-- *2022.09 - 2025.03 (现在)*, 南京信息工程大学人工智能学院.
+**Conference: ACL 2025** (Under Review)
+
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">ACL 2025</div>
+    <img src='images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+ 
+### Abstract
+
+Recent advances in large language models (LLMs) have significantly improved multi-hop question answering (QA) through direct Chain-of-Thought (CoT) reasoning. However, the irreversible nature of CoT leads to error accumulation, making it challenging to correct mistakes in multi-hop reasoning. This paper introduces ReAgent: Reversible multi-Agent collaborative framework augmented with explicit backtracking mechanisms, enabling reversible multi-hop reasoning. By incorporating text-based retrieval, information aggregation and validation, our system can detect and correct errors mid-reasoning, leading to more robust and interpretable QA outcomes. The framework and experiments serve as a foundation for future work on error-tolerant QA systems. Empirical evaluations across three benchmarks indicate ReAgent's efficacy, yielding average about 6% improvements against baseline models.
 
 ---
 
-<span class='anchor' id='-internships'></span>
+## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**
 
-# 💻 实习经历
+**Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li
+ 
+### Abstract
 
-- *2024.10 - 2025.03 (现在)*, 实习, 上海人工智能实验室 ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), 中国.
-- *2024.11 - 2025.03 (现在)*, 研究助理, 东京大学, 日本.
-- *2025.01 - 2025.03 (现在)*, 研究助理, 云南省红河州蒙自市科技局, 中国 **(国有企业)**. 
+Complex question answering often demands reasoning over multiple sources of information and integrating diverse forms of knowledge. However, reliance on a single chain-of-thought can lead to the propagation of errors, and systems remain vulnerable to malicious or misleading inputs. In this paper, we propose an enhanced multi-agent framework that introduces a fine-grained interruption (``breakpoint'') mechanism and a dynamic trust-weighted voting strategy to improve both robustness and explainability in multi-hop QA. Our approach integrates Bayesian-inspired agent credibility updates, segment-by-segment answer generation, and a mathematically grounded interruption strategy to limit error propagation. We describe the theoretical underpinnings and practical workflow of our system, then demonstrate how interruption triggers, weighted voting, and multi-agent collaboration converge to produce more accurate and secure answers. Experiments on benchmark QA datasets confirm significant improvements in correctness, stability, and interpretability, showing promise for broader adoption in adversarial or high-stakes settings.
+ 
+---
+
+
+
+# 📖 Educations
+- *2022.09 - 2025.03 (now)*, the School of Artificial Intelligence, Nanjing University of Information Science and Technology.
+
+---
+
+# 💻 Internships
+- *2024.10 - 2025.03 (now)*, Internship, Shanghai Artificial Intelligence Laboratory ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), China.
+- *2024.11 - 2025.03 (now)*, Research Assistant, The University of Tokyo, Japan.
+- *2025.01 - 2025.03 (now)*, Research Assistant, Science and Technology Bureau of Mengzi City, Honghe Prefecture, Yunnan Province, China **(State-owned enterprise)**.
