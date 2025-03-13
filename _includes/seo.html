@@ -8,7 +8,11 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
+{% if page.lang == 'zh' %}
+<title>{{ site.title }} - 主页</title>
+{% else %}
 <title>{{ site.title }} - Homepage</title>
+{% endif %}
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,9 +33,12 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:locale" content="{% if page.lang == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+{% if page.lang == 'zh' %}
+<link rel="alternate" hreflang="en" href="{{ canonical_url | replace: '/zh/', '/' }}">
+{% else %}
+<link rel="alternate" hreflang="zh-CN" href="{{ canonical_url | replace: canonical_url, '/zh/' }}">
+{% endif %}
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
