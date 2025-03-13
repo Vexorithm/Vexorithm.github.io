@@ -20,13 +20,13 @@
         
         <div class="lang-switch">
           {% if page.lang == 'zh' %}
-            <span class="lang-item active">中文</span>
-            <span class="lang-separator">|</span>
             <a href="/" class="lang-item" target="_self">English</a>
-          {% else %}
-            <a href="/zh/" class="lang-item" target="_self">中文</a>
             <span class="lang-separator">|</span>
+            <span class="lang-item active">中文</span>
+          {% else %}
             <span class="lang-item active">English</span>
+            <span class="lang-separator">|</span>
+            <a href="/zh/" class="lang-item" target="_self">中文</a>
           {% endif %}
         </div>
         
