@@ -27,22 +27,22 @@ main_zh:
     url: "/#about-me"
 
   - title: "喜讯"
-    url: "/#喜讯"
+    url: "/#news"
 
   - title: "荣誉与奖项"
-    url: "/#荣誉与奖项"
+    url: "/#honors-and-awards"
     
   - title: "论文"
-    url: "/#论文"
+    url: "/#publications"
 
   - title: "研究概览"
-    url: "/#研究概览"
+    url: "/#research-overview"
     
   - title: "教育经历"
-    url: "/#教育经历"
+    url: "/#educations"
 
   - title: "实习经历"
-    url: "/#实习经历"
+    url: "/#internships"
 
 # Language switcher
 languages:

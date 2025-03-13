@@ -16,7 +16,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='关于我'></span>
 
 # 关于我
 大家好！我目前是南京信息工程大学人工智能学院的一名本科在读学生，有幸师从[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")。
@@ -31,12 +31,14 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='news'></span>
 # 🔥 最新动态
 - *2025.03*: &nbsp;🎉🎉 论文"Density-Assisted Evolutionary Dynamic Multimodal Optimization"被**ACM Transactions on Evolutionary Learning and Optimization**接收。
 - *2025.03*: &nbsp;🎉🎉 在Kaggle竞赛"LLMs - You Can't Please Them All"中获得银牌。
 
 ---
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 荣誉与奖项
 - *2025.03* 在Kaggle竞赛**"LLMs - You Can't Please Them All"**中获得银牌。
 - *2024.07* 在**IEEE CEC 2024动态环境多最优解竞赛**中获得冠军。
@@ -46,6 +48,7 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='publications'></span>
 # 📝 论文
 - **Density-Assisted Evolutionary Dynamic Multimodal Optimization**, **Ying Zhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo, **ACM TELO**.
 - **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**, **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu, **IJCAI 2025 (Under the second reviewing phase)**.
@@ -55,6 +58,7 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='research-overview'></span>
 # 💬 研究概述
 
 ## **Density-Assisted Evolutionary Dynamic Multimodal Optimization**
@@ -144,11 +148,13 @@ redirect_from:
 ---
 
 # 📖 教育经历
+<span class='anchor' id='educations'></span>
 - *2022.09 - 2025.03（至今）*, 南京信息工程大学人工智能学院。
 
 ---
 
 # 💻 实习经历
+<span class='anchor' id='internships'></span>
 - *2024.10 - 2025.03（至今）*, 实习, 上海人工智能实验室（[Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")）, 中国。
 - *2024.11 - 2025.03（至今）*, 研究助理, 东京大学, 日本。
 - *2025.01 - 2025.03（至今）*, 研究助理, 云南省红河州蒙自市科技局, 中国**（国有企业）**。
