@@ -46,36 +46,58 @@ I am actively seeking opportunities for academic collaboration and would be deli
 
 ---
 
-# 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TELO</div><img src='{{ site.baseurl }}/images/DADE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Publications
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ACM TELO</div>
+      <img src='{{ site.baseurl }}/images/DADE.png' alt="DADE Paper" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/10.1145/3649495)
 
 **Ying Zhu**, Peilan Xu, Xinjie Zhao, Yiping Liu, Yaochu Jin
 
 [PDF](https://dl.acm.org/doi/pdf/10.1145/3649495) 
+  </div>
 </div>
+
+<span class='anchor' id='-research-overview'></span>
+
+# 🔍 Research Overview
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Evolutionary Computation</div>
+      <img src='{{ site.baseurl }}/images/EC.png' alt="Evolutionary Computation" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+## Evolutionary Computation
+
+My research focuses on evolutionary computation, particularly Dynamic Multimodal Optimization (DMMO). I proposed a novel Density-Assisted Evolutionary Dynamic Multimodal Optimization (DADE) algorithm that leverages density estimation to enhance the ability to locate and track multiple optima in dynamic environments. The algorithm performed exceptionally well in IEEE CEC competitions, winning first place for two consecutive years.
+
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TELO</div><img src='{{ site.baseurl }}/images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Large Language Models</div>
+      <img src='{{ site.baseurl }}/images/LLM.png' alt="Large Language Models" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-**Authors:** **YingZhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo
+## Large Language Models
 
-**Journal: ACM Transactions on Evolutionary Learning and Optimization** (Accept)
+My research interests also include the reasoning capabilities and applications of Large Language Models (LLMs). I have been involved in multiple LLM projects, including developing generative summaries and scientific exam solutions for Kaggle competitions. I am currently researching multi-agent frameworks and LLM applications in various domains.
 
-**Code: <https://github.com/EvoNexusX/2023ZhuDAEA>**
-
-
-<div style="text-align: center; margin: 0 auto; max-width: 50%;">
-    <div class="badge">ACM TELO</div>
-    <img src='{{ site.baseurl }}/images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-</div>
- 
-### Abstract
-Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of swiftly locating and tracking multiple optimal solutions over time. The primary challenge lies in controlling the population diversity to facilitate effective exploration, all within the limitation of computational resources between consecutive environmental changes. In this paper, we study the utilization of density information derived from both current and historical populations to enhance exploration. First, for each active sub-population, we construct a density landscape based on the distribution of concurrently active sub-populations, and establish dominance relationships between candidate solutions in the sub-population based on density and fitness values, directing this sub-population towards exploring low-density promising areas. Then, for each converged sub-population, we construct a density landscape based on the distribution of sub-populations that have historically become extinct, guiding the restart of this sub-population in low-density unexploited areas. Finally, we develop a comprehensive framework of density-assisted evolutionary algorithm (DAEA), which encompasses density-assisted search and restart, also combined with initialization. Moreover, we employ prediction and memory strategies to enhance the performance of DAEA in dynamic environments. Notably, the algorithm relies on an external monitor to detect environmental changes and trigger the dynamic response strategy. DAEA is tested on the CEC'2022 dynamic multimodal optimization benchmark suite, and is compared against several state-of-the-art dynamic multimodal optimization algorithms. The experimental results demonstrate the competitiveness of DAEA in handling DMMOPs.
-</div>
+  </div>
 </div>
 
 ---
@@ -105,8 +127,6 @@ Trustworthiness reasoning aims to enable agents in multiplayer games with incomp
 **Authors:** Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu.
 
 **Conference: ACL 2025** (Under Review)
-
-**Code: <https://github.com/EvoNexusX/2025DingNarrativeGuide>**
 
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">

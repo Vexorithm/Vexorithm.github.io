@@ -13,24 +13,26 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
-<!-- Custom styles for language switcher -->
+<!-- Custom styles for language switcher and image fixes -->
 <style>
-  .greedy-nav {
+  /* Fix for navigation and language switcher */
+  .masthead__inner-wrap {
     position: relative;
   }
   
-  .greedy-nav .visible-links {
-    flex: 1;
+  .greedy-nav {
+    position: relative;
   }
   
   .lang-switch {
     position: absolute;
     top: 50%;
-    right: 60px;
+    right: 5px;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
     white-space: nowrap;
+    z-index: 20;
   }
   
   .lang-item {
@@ -58,6 +60,31 @@
     font-size: 0.9em;
   }
   
+  /* Fix for images */
+  .paper-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  
+  .paper-box-image {
+    flex: 0 0 25%;
+    margin-right: 20px;
+  }
+  
+  .paper-box-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .paper-box-text {
+    flex: 1;
+  }
+  
+  /* Responsive fixes */
   @media (max-width: 768px) {
     .lang-switch {
       top: 15px;
@@ -67,6 +94,16 @@
     
     .lang-item {
       font-size: 0.8em;
+    }
+    
+    .paper-box {
+      flex-direction: column;
+    }
+    
+    .paper-box-image {
+      flex: 0 0 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
     }
   }
 </style>

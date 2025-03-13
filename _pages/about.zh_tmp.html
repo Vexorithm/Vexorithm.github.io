@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>about.zh.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = &quot;https://cdn.jsdelivr.net/gh/&quot; | append: site.repository | append: &quot;@&quot; %}
+{% else %}
+{% assign gsDataBaseUrl = &quot;https://raw.githubusercontent.com/&quot; | append: site.repository | append: &quot;/&quot; %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: &quot;google-scholar-stats/gs_data_shieldsio.json&quot; %}</p>
+<p><span class='anchor' id='about-me'></span></p>
+<h1 id="%E5%85%B3%E4%BA%8E%E6%88%91">关于我</h1>
+<p>我目前是南京信息工程大学人工智能学院的大三本科生，很荣幸能够在<a href="https://scholar.google.ca/citations?hl=zh-CN&amp;user=MYTn5zYAAAAJ" title="许沛澜">许沛澜</a>教授的指导下学习。</p>
+<p>我当前的研究重点是进化计算、大语言模型推理、多智能体框架以及各种大语言模型应用研究。我已向人工智能领域的顶级期刊和会议（如ACM Transactions、IJCAI、ACL等）提交了多篇论文，其中代表作&quot;Density-Assisted Evolutionary Dynamic Multimodal Optimization&quot;已被ACM TELO接收。</p>
+<p>目前，我正在<a href="https://www.shlab.org.cn/" title="上海人工智能实验室">上海人工智能实验室</a>实习，由<a href="https://scholar.google.ca/citations?hl=zh-CN&amp;authuser=2&amp;user=tLLmRBwAAAAJ" title="苏锐">苏锐</a>指导。同时，我在东京大学担任研究助理，并与<a href="%5Bhttps://openreview.net/profile?id=~Zhao_Xinjie1%5D(https://scholar.google.com/citations?hl=zh-CN&amp;user=_l5fPvEAAAAJ)" title="赵新杰">赵新杰</a>密切合作。</p>
+<p>我很荣幸被认可为<strong>Kaggle专家</strong>，在LLM竞赛中赢得了两枚银牌。此外，我连续两年（2023年、2024年）在<a href="http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html">IEEE CEC动态环境中寻找多个最优解竞赛</a>中获得冠军，并在蓝桥杯中获得国家一等奖。</p>
+<p>我正在积极寻求学术合作的机会，并很乐意讨论潜在的合作伙伴关系。请随时通过<a href="mailto:auraithm@gmail.com">auraithm@gmail.com</a>（个人邮箱）或<a href="mailto:evonexusx@gmail.com">evonexusx@gmail.com</a>与我联系。</p>
+<hr>
+<p><span class='anchor' id='-news'></span></p>
+<h1 id="%F0%9F%94%A5-%E6%96%B0%E9%97%BB">🔥 新闻</h1>
+<ul>
+<li><em>2025.03</em>:  🎉🎉 论文&quot;Density-Assisted Evolutionary Dynamic Multimodal Optimization&quot;被<strong>ACM Transactions on Evolutionary Learning and Optimization</strong>接收！</li>
+<li><em>2025.03</em>:  🎉🎉 在Kaggle竞赛&quot;LLMs - You Can't Please Them All&quot;中获得银牌！</li>
+</ul>
+<hr>
+<p><span class='anchor' id='-honors-and-awards'></span></p>
+<h1 id="%F0%9F%8F%86-%E8%8D%A3%E8%AA%89%E4%B8%8E%E5%A5%96%E9%A1%B9">🏆 荣誉与奖项</h1>
+<ul>
+<li><em>2025.03</em> 在Kaggle竞赛**&quot;LLMs - You Can't Please Them All&quot;**中获得银牌</li>
+<li><em>2024.07</em> 在<strong>IEEE CEC 2024动态环境中寻找多个最优解竞赛</strong>中获得冠军</li>
+<li><em>2024.06</em> 在蓝桥杯中获得国家一等奖</li>
+<li><em>2024.04</em> 在Kaggle竞赛**&quot;LLM Prompt Recovery&quot;**中获得银牌</li>
+<li><em>2023.07</em> 在<strong>IEEE CEC 2023动态环境中寻找多个最优解竞赛</strong>中获得冠军</li>
+</ul>
+<hr>
+<p><span class='anchor' id='-publications'></span></p>
+<h1 id="%F0%9F%93%9D-%E5%8F%91%E8%A1%A8%E8%AE%BA%E6%96%87">📝 发表论文</h1>
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">ACM TELO</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/DADE.png" alt="DADE&#x8BBA;&#x6587;" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><p><a href="https://dl.acm.org/doi/10.1145/3649495">Density-Assisted Evolutionary Dynamic Multimodal Optimization</a></p>
+<p><strong>Ying Zhu</strong>, Peilan Xu, Xinjie Zhao, Yiping Liu, Yaochu Jin</p>
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/3649495">PDF</a></p>
+  
+
+<hr>
+<p><span class='anchor' id='-research-overview'></span></p>
+<h1 id="%F0%9F%94%8D-%E7%A0%94%E7%A9%B6%E6%A6%82%E8%A7%88">🔍 研究概览</h1>
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">&#x8FDB;&#x5316;&#x8BA1;&#x7B97;</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/EC.png" alt="&#x8FDB;&#x5316;&#x8BA1;&#x7B97;" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><h2 id="%E8%BF%9B%E5%8C%96%E8%AE%A1%E7%AE%97">进化计算</h2>
+<p>我的研究重点是进化计算，特别是动态多模态优化（DMMO）。我提出了一种新的密度辅助进化动态多模态优化（DADE）算法，该算法利用密度估计来提高在动态环境中寻找和跟踪多个最优解的能力。该算法在IEEE CEC竞赛中表现出色，连续两年获得冠军。</p>
+  
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">&#x5927;&#x8BED;&#x8A00;&#x6A21;&#x578B;</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/LLM.png" alt="&#x5927;&#x8BED;&#x8A00;&#x6A21;&#x578B;" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><h2 id="%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B">大语言模型</h2>
+<p>我的研究兴趣还包括大语言模型（LLM）的推理能力和应用。我参与了多个LLM项目，包括在Kaggle竞赛中开发生成摘要和科学考试解决方案。我目前正在研究多智能体框架和LLM在各种领域的应用。</p>
+  
+
+<hr>
+<p><span class='anchor' id='-educations'></span></p>
+<h1 id="%F0%9F%8E%93-%E6%95%99%E8%82%B2%E7%BB%8F%E5%8E%86">🎓 教育经历</h1>
+<ul>
+<li><em>2022.09 - 2025.03 (现在)</em>, 南京信息工程大学人工智能学院.</li>
+</ul>
+<hr>
+<p><span class='anchor' id='-internships'></span></p>
+<h1 id="%F0%9F%92%BB-%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86">💻 实习经历</h1>
+<ul>
+<li><em>2024.10 - 2025.03 (现在)</em>, 实习, 上海人工智能实验室 (<a href="https://www.shlab.org.cn/" title="上海人工智能实验室">Shanghai AI Lab</a>), 中国.</li>
+<li><em>2024.11 - 2025.03 (现在)</em>, 研究助理, 东京大学, 日本.</li>
+<li><em>2025.01 - 2025.03 (现在)</em>, 研究助理, 云南省红河州蒙自市科技局, 中国 <strong>(国有企业)</strong>.</li>
+</ul>
+
+</body>
+</html>
