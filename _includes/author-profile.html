@@ -2,15 +2,17 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+{% assign current_lang = page.lang | default: site.default_lang %}
+
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ site.baseurl }}/{{ author.avatar }}" class="author__avatar" alt="{{ author.name[page.lang] }}">
+    <img src="{{ site.baseurl }}/{{ author.avatar }}" class="author__avatar" alt="{{ author.name[current_lang] | default: author.name }}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name[page.lang] }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio[page.lang] }}</p>{% endif %}
+    <h3 class="author__name">{{ author.name[current_lang] | default: author.name }}</h3>
+    {% if author.bio %}<p class="author__bio">{{ author.bio[current_lang] | default: author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -20,7 +22,7 @@
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location[page.lang] }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location[current_lang] | default: author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
