@@ -18,6 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+
 # About Me
 I am currently an junior undergraduate student at the School of Artificial Intelligence, Nanjing University of Information Science and Technology, where I am fortunate to be advised by [Peilan Xu](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜"). 
 
@@ -46,59 +47,33 @@ I am actively seeking opportunities for academic collaboration and would be deli
 
 ---
 
-# 📝 Publications
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">ACM TELO</div>
-      <img src='{{ site.baseurl }}/images/Density_00.png' alt="DADE Paper" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
+# 📝 Publications 
+- **Density-Assisted Evolutionary Dynamic Multimodal Optimization**, **YingZhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo, **ACM TELO**.
+- **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**, **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu, **IJCAI 2025 (Under the second reviewing phase)**.
+- **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**, Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu, **ACL 2025 (Under Review)**.
+- **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA**, Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li , **ACL 2025 (Under Review)**.
+- **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**, **Ying Zhu\***, Zhao Xinjie, Irene Li, **arXiv**.
 
-[Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/10.1145/3649495)
+---
 
-**Ying Zhu**, Peilan Xu, Xinjie Zhao, Yiping Liu, Yaochu Jin
+# 💬 Research Overview
 
-[PDF](https://dl.acm.org/doi/pdf/10.1145/3649495) 
-  </div>
+## **Density-Assisted Evolutionary Dynamic Multimodal Optimization**
+
+**Authors:** **YingZhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo
+
+**Journal: ACM Transactions on Evolutionary Learning and Optimization** (Accept)
+
+**Code: <https://github.com/EvoNexusX/2023ZhuDAEA>**
+
+
+<div style="text-align: center; margin: 0 auto; max-width: 50%;">
+    <div class="badge">ACM TELO</div>
+    <img src='images/Density_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
-
-<span class='anchor' id='-research-overview'></span>
-
-# 🔍 Research Overview
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Evolutionary Computation</div>
-      <img src='{{ site.baseurl }}/images/fig2_00.png' alt="Evolutionary Computation" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-## Evolutionary Computation
-
-My research focuses on evolutionary computation, particularly Dynamic Multimodal Optimization (DMMO). I proposed a novel Density-Assisted Evolutionary Dynamic Multimodal Optimization (DADE) algorithm that leverages density estimation to enhance the ability to locate and track multiple optima in dynamic environments. The algorithm performed exceptionally well in IEEE CEC competitions, winning first place for two consecutive years.
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Large Language Models</div>
-      <img src='{{ site.baseurl }}/images/LLM.png' alt="Large Language Models" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-## Large Language Models
-
-My research interests also include the reasoning capabilities and applications of Large Language Models (LLMs). I have been involved in multiple LLM projects, including developing generative summaries and scientific exam solutions for Kaggle competitions. I am currently researching multi-agent frameworks and LLM applications in various domains.
-
-  </div>
-</div>
+ 
+### Abstract
+Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of swiftly locating and tracking multiple optimal solutions over time. The primary challenge lies in controlling the population diversity to facilitate effective exploration, all within the limitation of computational resources between consecutive environmental changes. In this paper, we study the utilization of density information derived from both current and historical populations to enhance exploration. First, for each active sub-population, we construct a density landscape based on the distribution of concurrently active sub-populations, and establish dominance relationships between candidate solutions in the sub-population based on density and fitness values, directing this sub-population towards exploring low-density promising areas. Then, for each converged sub-population, we construct a density landscape based on the distribution of sub-populations that have historically become extinct, guiding the restart of this sub-population in low-density unexploited areas. Finally, we develop a comprehensive framework of density-assisted evolutionary algorithm (DAEA), which encompasses density-assisted search and restart, also combined with initialization. Moreover, we employ prediction and memory strategies to enhance the performance of DAEA in dynamic environments. Notably, the algorithm relies on an external monitor to detect environmental changes and trigger the dynamic response strategy. DAEA is tested on the CEC'2022 dynamic multimodal optimization benchmark suite, and is compared against several state-of-the-art dynamic multimodal optimization algorithms. The experimental results demonstrate the competitiveness of DAEA in handling DMMOPs.
 
 ---
 
@@ -113,7 +88,7 @@ My research interests also include the reasoning capabilities and applications o
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">IJCAI 2025</div>
-    <img src='{{ site.baseurl }}/images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
@@ -128,10 +103,12 @@ Trustworthiness reasoning aims to enable agents in multiplayer games with incomp
 
 **Conference: ACL 2025** (Under Review)
 
+**Code: <https://github.com/EvoNexusX/2025DingNarrativeGuide>**
+
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">ACL 2025</div>
-    <img src='{{ site.baseurl }}/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
@@ -148,7 +125,7 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">ACL 2025</div>
-    <img src='{{ site.baseurl }}/images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
