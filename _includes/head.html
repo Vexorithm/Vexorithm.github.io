@@ -15,8 +15,22 @@
 
 <!-- Custom styles for language switcher -->
 <style>
-  .masthead__menu-item--lang {
-    margin-left: 15px;
+  .greedy-nav {
+    position: relative;
+  }
+  
+  .greedy-nav .visible-links {
+    flex: 1;
+  }
+  
+  .lang-switch {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
   }
   
   .lang-item {
@@ -45,8 +59,10 @@
   }
   
   @media (max-width: 768px) {
-    .masthead__menu-item--lang {
-      margin-left: 10px;
+    .lang-switch {
+      top: 15px;
+      right: 50px;
+      transform: none;
     }
     
     .lang-item {

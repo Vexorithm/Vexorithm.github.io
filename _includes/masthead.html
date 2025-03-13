@@ -10,23 +10,25 @@
             {% for link in site.data.navigation.main_zh %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
-            <li class="masthead__menu-item masthead__menu-item--lang">
-              <span class="lang-item active">中文</span>
-              <span class="lang-separator">|</span>
-              <a href="/" class="lang-item">English</a>
-            </li>
           {% else %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
             {% for link in site.data.navigation.main %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
-            <li class="masthead__menu-item masthead__menu-item--lang">
-              <a href="/zh/" class="lang-item">中文</a>
-              <span class="lang-separator">|</span>
-              <span class="lang-item active">English</span>
-            </li>
           {% endif %}
         </ul>
+        
+        <div class="lang-switch">
+          {% if page.lang == 'zh' %}
+            <span class="lang-item active">中文</span>
+            <span class="lang-separator">|</span>
+            <a href="/" class="lang-item">English</a>
+          {% else %}
+            <a href="/zh/" class="lang-item">中文</a>
+            <span class="lang-separator">|</span>
+            <span class="lang-item active">English</span>
+          {% endif %}
+        </div>
         
         <ul class="hidden-links hidden"></ul>
       </nav>
