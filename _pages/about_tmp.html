@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>about.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = &quot;https://cdn.jsdelivr.net/gh/&quot; | append: site.repository | append: &quot;@&quot; %}
+{% else %}
+{% assign gsDataBaseUrl = &quot;https://raw.githubusercontent.com/&quot; | append: site.repository | append: &quot;/&quot; %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: &quot;google-scholar-stats/gs_data_shieldsio.json&quot; %}</p>
+<p><span class='anchor' id='about-me'></span></p>
+<h1 id="about-me">About Me</h1>
+<p>I am currently an junior undergraduate student at the School of Artificial Intelligence, Nanjing University of Information Science and Technology, where I am fortunate to be advised by <a href="https://scholar.google.ca/citations?hl=zh-CN&amp;user=MYTn5zYAAAAJ" title="许沛澜">Peilan Xu</a>.</p>
+<p>My current research focuses on evolutionary computation, LLM reasoning, multi-agent frameworks, and various LLM application research. Several papers have been submitted to the top journals and conferences in the field of artificial intelligence (such as ACM Transactions, IJCAI, ACL ...), and my representative work &quot;Density-Assisted Evolutionary Dynamic Multimodal Optimization&quot; has been accepted by ACM TELO.</p>
+<p>Currently, I am undertaking an internship at <a href="https://www.shlab.org.cn/" title="上海人工智能实验室">Shanghai AI Lab</a> under the mentorship of <a href="https://scholar.google.ca/citations?hl=zh-CN&amp;authuser=2&amp;user=tLLmRBwAAAAJ" title="苏锐">Rui Su</a>. Concurrently, I am working as a research assistant at The University of Tokyo, and collaborate closely with <a href="%5Bhttps://openreview.net/profile?id=~Zhao_Xinjie1%5D(https://scholar.google.com/citations?hl=zh-CN&amp;user=_l5fPvEAAAAJ)" title="赵新杰">Xinjie Zhao</a>. .</p>
+<p>I am honoured to be recognized as a <strong>Kaggle Expert</strong> for winning two silver medals in LLM competitions. Additionally, I won the championship in the <a href="http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html">IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments</a> for two consecutive years (2023,2024), and was awarded a national first prize in the Lanqiao Cup.</p>
+<p>I am actively seeking opportunities for academic collaboration and would be delighted to discuss potential partnerships. Please feel free to contact me at <a href="mailto:auraithm@gmail.com">auraithm@gmail.com</a> (personal email) or <a href="mailto:evonexusx@gmail.com">evonexusx@gmail.com</a>.</p>
+<hr>
+<h1 id="%F0%9F%94%A5-news">🔥 News</h1>
+<ul>
+<li><em>2025.03</em>:  🎉🎉 Paper &quot;Density-Assisted Evolutionary Dynamic Multimodal Optimization&quot; is accepted by <strong>ACM Transactions on Evolutionary Learning and Optimization</strong>.</li>
+<li><em>2025.03</em>:  🎉🎉 Won a silver medal at Kaggle competitions &quot;LLMs - You Can't Please Them All&quot;.</li>
+</ul>
+<hr>
+<h1 id="%F0%9F%8E%96-honors-and-awards">🎖 Honors and Awards</h1>
+<ul>
+<li><em>2025.03</em> Won a silver medal at the Kaggle competition <strong>&quot;LLMs - You Can't Please Them All&quot;</strong>.</li>
+<li><em>2024.07</em> Won the championship in the <strong>IEEE CEC 2024 Competition on Seeking Multiple Optima in Dynamic Environments</strong>.</li>
+<li><em>2024.06</em> Won the national first prize in the Lanqiao Cup.</li>
+<li><em>2024.04</em> Won a silver medal at the Kaggle competition <strong>&quot;LLM Prompt Recovery&quot;</strong>.</li>
+<li><em>2023.07</em> Won the championship in the <strong>IEEE CEC 2023 Competition on Seeking Multiple Optima in Dynamic Environments</strong>.</li>
+</ul>
+<hr>
+<h1 id="%F0%9F%93%9D-publications">📝 Publications</h1>
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">ACM TELO</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/Density_00.png" alt="DADE Paper" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><p><a href="https://dl.acm.org/doi/10.1145/3649495">Density-Assisted Evolutionary Dynamic Multimodal Optimization</a></p>
+<p><strong>Ying Zhu</strong>, Peilan Xu, Xinjie Zhao, Yiping Liu, Yaochu Jin</p>
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/3649495">PDF</a></p>
+  
+
+<p><span class='anchor' id='-research-overview'></span></p>
+<h1 id="%F0%9F%94%8D-research-overview">🔍 Research Overview</h1>
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Evolutionary Computation</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/fig2_00.png" alt="Evolutionary Computation" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><h2 id="evolutionary-computation">Evolutionary Computation</h2>
+<p>My research focuses on evolutionary computation, particularly Dynamic Multimodal Optimization (DMMO). I proposed a novel Density-Assisted Evolutionary Dynamic Multimodal Optimization (DADE) algorithm that leverages density estimation to enhance the ability to locate and track multiple optima in dynamic environments. The algorithm performed exceptionally well in IEEE CEC competitions, winning first place for two consecutive years.</p>
+  
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">Large Language Models</div>
+      <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/LLM.png" alt="Large Language Models" width="100%">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+</div></div><h2 id="large-language-models">Large Language Models</h2>
+<p>My research interests also include the reasoning capabilities and applications of Large Language Models (LLMs). I have been involved in multiple LLM projects, including developing generative summaries and scientific exam solutions for Kaggle competitions. I am currently researching multi-agent frameworks and LLM applications in various domains.</p>
+  
+
+<hr>
+<h2 id="gratr-zero-shot-evidence-graph-retrieval-augmented-trustworthiness-reasoning"><strong><a href="https://arxiv.org/abs/2408.12333">GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning</a></strong></h2>
+<p><strong>Authors:</strong> <strong>Ying Zhu*</strong>, Shengchang Li*, Ziqian Kong, Qiang Yang, Peilan Xu.</p>
+<p><strong>Conference: IJCAI 2025</strong> (Under the second reviewing phase)</p>
+<p><strong>Code: <a href="https://github.com/EvoNexusX/2025ZhuGRATR">https://github.com/EvoNexusX/2025ZhuGRATR</a></strong></p>
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">IJCAI 2025</div>
+    <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/fig2_00.png" alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+<h3 id="abstract">Abstract</h3>
+<p>Trustworthiness reasoning aims to enable agents in multiplayer games with incomplete information to identify potential allies and adversaries, thereby enhancing decision-making. In this paper, we introduce the graph retrieval-augmented trustworthiness reasoning (GRATR) framework, which retrieves observable evidence from the game environment to inform decision-making by large language models (LLMs) without requiring additional training, making it a zero-shot approach. Within the GRATR framework, agents first observe the actions of other players and evaluate the resulting shifts in inter-player trust, constructing a corresponding trustworthiness graph. During decision-making, the agent performs multi-hop retrieval to evaluate trustworthiness toward a specific target, where evidence chains are retrieved from multiple trusted sources to form a comprehensive assessment. Experiments in the multiplayer game \emph{Werewolf} demonstrate that GRATR outperforms the alternatives, improving reasoning accuracy by 50.5% and reducing hallucination by 30.6% compared to the baseline method. Additionally, when tested on a dataset of Twitter tweets during the U.S. election period, GRATR surpasses the baseline method by 10.4% in accuracy, highlighting its potential in real-world applications such as intent analysis.</p>
+<hr>
+<h2 id="narrative-driven-travel-planning-geocultural-grounded-script-generation-with-evolutionary-itinerary-optimization"><strong><a href="https://arxiv.org/abs/2502.14456">Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization</a></strong></h2>
+<p><strong>Authors:</strong> Ran Ding*, Ziyu Zhang*, <strong>Ying Zhu*</strong>, Ziqian Kong, Peilan Xu.</p>
+<p><strong>Conference: ACL 2025</strong> (Under Review)</p>
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">ACL 2025</div>
+    <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/3.png" alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+<h3 id="abstract">Abstract</h3>
+<p>To enhance tourists' experiences and immersion, this paper proposes a narrative-driven travel planning framework called NarrativeGuide, which generates a geoculturally-grounded narrative script for travelers, offering a novel, role-playing experience for their journey. In the initial stage, NarrativeGuide constructs a knowledge graph for attractions within a city, then configures the worldview, character setting, and exposition based on the knowledge graph. Using this foundation, the knowledge graph is combined to generate an independent scene unit for each attraction. During the itinerary planning stage, NarrativeGuide models narrative-driven travel planning as an optimization problem, utilizing a genetic algorithm (GA) to refine the itinerary. Before evaluating the candidate itinerary, transition scripts are generated for each pair of adjacent attractions, which, along with the scene units, form a complete script. The weighted sum of script coherence, travel time, and attraction scores is then used as the fitness value to update the candidate solution set. Experimental results across four cities, i.e., Nanjing and Yangzhou in China, Paris in France, and Berlin in Germany, demonstrate significant improvements in narrative coherence and cultural fit, alongside a notable reduction in travel time and an increase in the quality of visited attractions. Our study highlights that incorporating external evolutionary optimization effectively addresses the limitations of large language models in travel planning.</p>
+<hr>
+<h2 id="reagent-reversible-multi-agent-reasoning-for-knowledge-enhanced-multi-hop-qa"><strong>ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA</strong></h2>
+<p><strong>Authors:</strong> Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, <strong>Ying Zhu</strong>, Jiacheng Tang, Irene Li.</p>
+<p><strong>Conference: ACL 2025</strong> (Under Review)</p>
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">ACL 2025</div>
+    <img src="file:///c:/Users/Administrator/Desktop/Auraithm.github.io/_pages/{{ site.baseurl }}/images/4.png" alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+<h3 id="abstract">Abstract</h3>
+<p>Recent advances in large language models (LLMs) have significantly improved multi-hop question answering (QA) through direct Chain-of-Thought (CoT) reasoning. However, the irreversible nature of CoT leads to error accumulation, making it challenging to correct mistakes in multi-hop reasoning. This paper introduces ReAgent: Reversible multi-Agent collaborative framework augmented with explicit backtracking mechanisms, enabling reversible multi-hop reasoning. By incorporating text-based retrieval, information aggregation and validation, our system can detect and correct errors mid-reasoning, leading to more robust and interpretable QA outcomes. The framework and experiments serve as a foundation for future work on error-tolerant QA systems. Empirical evaluations across three benchmarks indicate ReAgent's efficacy, yielding average about 6% improvements against baseline models.</p>
+<hr>
+<h2 id="adaptive-interruption-and-trust-weighted-voting-for-secure-multi-agent-collaboration-in-complex-question-answering"><strong>Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering</strong></h2>
+<p><strong>Authors:</strong> <strong>Ying Zhu*</strong>, Zhao Xinjie, Irene Li</p>
+<h3 id="abstract">Abstract</h3>
+<p>Complex question answering often demands reasoning over multiple sources of information and integrating diverse forms of knowledge. However, reliance on a single chain-of-thought can lead to the propagation of errors, and systems remain vulnerable to malicious or misleading inputs. In this paper, we propose an enhanced multi-agent framework that introduces a fine-grained interruption (``breakpoint'') mechanism and a dynamic trust-weighted voting strategy to improve both robustness and explainability in multi-hop QA. Our approach integrates Bayesian-inspired agent credibility updates, segment-by-segment answer generation, and a mathematically grounded interruption strategy to limit error propagation. We describe the theoretical underpinnings and practical workflow of our system, then demonstrate how interruption triggers, weighted voting, and multi-agent collaboration converge to produce more accurate and secure answers. Experiments on benchmark QA datasets confirm significant improvements in correctness, stability, and interpretability, showing promise for broader adoption in adversarial or high-stakes settings.</p>
+<hr>
+<h1 id="%F0%9F%93%96-educations">📖 Educations</h1>
+<ul>
+<li><em>2022.09 - 2025.03 (now)</em>, the School of Artificial Intelligence, Nanjing University of Information Science and Technology.</li>
+</ul>
+<hr>
+<h1 id="%F0%9F%92%BB-internships">💻 Internships</h1>
+<ul>
+<li><em>2024.10 - 2025.03 (now)</em>, Internship, Shanghai Artificial Intelligence Laboratory (<a href="https://www.shlab.org.cn/" title="上海人工智能实验室">Shanghai AI Lab</a>), China.</li>
+<li><em>2024.11 - 2025.03 (now)</em>, Research Assistant, The University of Tokyo, Japan.</li>
+<li><em>2025.01 - 2025.03 (now)</em>, Research Assistant, Science and Technology Bureau of Mengzi City, Honghe Prefecture, Yunnan Province, China <strong>(State-owned enterprise)</strong>.</li>
+</ul>
+
+</body>
+</html>

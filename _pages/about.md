@@ -51,7 +51,7 @@ I am actively seeking opportunities for academic collaboration and would be deli
   <div class='paper-box-image'>
     <div>
       <div class="badge">ACM TELO</div>
-      <img src='{{ site.baseurl }}/images/DADE.png' alt="DADE Paper" width="100%">
+      <img src='{{ site.baseurl }}/images/Density_00.png' alt="DADE Paper" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -72,7 +72,7 @@ I am actively seeking opportunities for academic collaboration and would be deli
   <div class='paper-box-image'>
     <div>
       <div class="badge">Evolutionary Computation</div>
-      <img src='{{ site.baseurl }}/images/EC.png' alt="Evolutionary Computation" width="100%">
+      <img src='{{ site.baseurl }}/images/fig2_00.png' alt="Evolutionary Computation" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
