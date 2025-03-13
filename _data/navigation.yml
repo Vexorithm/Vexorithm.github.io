@@ -20,12 +20,6 @@ main:
 
   - title: "Internships"
     url: "/#-internships"
-    
-  - title: "English"
-    url: "/"
-    
-  - title: "中文"
-    url: "/zh/"
 
 # Chinese navigation
 main_zh:
@@ -49,9 +43,13 @@ main_zh:
 
   - title: "实习经历"
     url: "/zh/#-internships"
-    
+
+# Language switcher
+languages:
   - title: "English"
     url: "/"
+    code: "en"
     
   - title: "中文"
     url: "/zh/"
+    code: "zh"

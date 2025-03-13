@@ -14,9 +14,11 @@ baseurl                  : ""
 url                      : "https://auraithm.github.io"
 
 # Multilingual settings
-languages:
-  - en
-  - zh
+default_lang             : "en"
+languages                : ["en", "zh"]
+language_names:
+  en                     : "English"
+  zh                     : "中文"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

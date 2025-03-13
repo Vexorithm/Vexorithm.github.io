@@ -13,6 +13,75 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
+<!-- Custom styles for language switcher -->
+<style>
+  .site-title {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .site-title-link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 10;
+    margin-right: 20px;
+  }
+  
+  .lang-item {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.85em;
+  }
+  
+  .lang-item:hover {
+    color: #0077cc;
+    transform: scale(1.05);
+  }
+  
+  .lang-item.active {
+    color: #0077cc;
+    cursor: default;
+  }
+  
+  .lang-separator {
+    color: #ccc;
+    margin: 0 1px;
+  }
+  
+  @media (max-width: 768px) {
+    .site-title {
+      margin-right: auto;
+    }
+    
+    .language-switcher {
+      margin-right: 50px;
+      background-color: rgba(248, 249, 250, 0.9);
+      padding: 2px 6px;
+    }
+    
+    .lang-item {
+      font-size: 0.75em;
+      padding: 2px 6px;
+    }
+  }
+</style>
+
 <meta http-equiv="cleartype" content="on">
 <head>
   <base target="_blank">

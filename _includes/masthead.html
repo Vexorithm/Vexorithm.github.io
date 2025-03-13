@@ -2,20 +2,40 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        <div class="site-title">
+          {% if page.lang == 'zh' %}
+            <a href="/zh/#about-me" class="site-title-link">{{ site.title }}</a>
+          {% else %}
+            <a href="/#about-me" class="site-title-link">{{ site.title }}</a>
+          {% endif %}
+        </div>
+        
+        <div class="language-switcher">
+          {% for lang in site.data.navigation.languages %}
+            {% if page.lang == lang.code %}
+              <span class="lang-item active">{{ lang.title }}</span>
+            {% else %}
+              <a href="{{ lang.url }}" class="lang-item">{{ lang.title }}</a>
+            {% endif %}
+            {% unless forloop.last %}
+              <span class="lang-separator">|</span>
+            {% endunless %}
+          {% endfor %}
+        </div>
+        
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           {% if page.lang == 'zh' %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/zh/#about-me">主页</a></li>
             {% for link in site.data.navigation.main_zh %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
           {% else %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
             {% for link in site.data.navigation.main %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
           {% endif %}
         </ul>
+        
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
