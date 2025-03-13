@@ -4,22 +4,22 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
     
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Research Overview"
-    url: "/#-research-overview"
+    url: "/#research-overview"
     
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#educations"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
 
 # Chinese navigation
 main_zh:
@@ -27,22 +27,22 @@ main_zh:
     url: "/#about-me"
 
   - title: "喜讯"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "荣誉与奖项"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
     
   - title: "论文"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "研究概览"
-    url: "/#-research-overview"
+    url: "/#research-overview"
     
   - title: "教育经历"
-    url: "/#-educations"
+    url: "/#educations"
 
   - title: "实习经历"
-    url: "/#-internships"
+    url: "/#internships"
 
 # Language switcher
 languages:
