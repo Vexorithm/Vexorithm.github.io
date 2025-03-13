@@ -19,13 +19,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 关于我
-大家好！我目前是南京信息工程大学人工智能学院的一名本科在读学生，有幸师从[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")导师。
+大家好！我目前是南京信息工程大学人工智能学院的一名本科在读学生，由[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")导师指导。
 
 我的研究重点包括Evolutionary Computation、LLM Reasoning、Multi-Agent Frameworks以及各类LLM应用研究。多篇论文已投稿至人工智能领域的顶级期刊和会议（如ACM Transactions、IJCAI、ACL等），我的代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
 
-目前，我在[Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")实习，我的mentor是[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")。同时，我在The University of Tokyo担任Research Assistant，与[赵新杰](https://scholar.google.com/citations?hl=zh-CN&user=_l5fPvEAAAAJ "赵新杰")密切合作。
+目前，我在[Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")实习，我的mentor是[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")。同时，我在东京大学担任Research Assistant，并与[赵新杰](https://scholar.google.com/citations?hl=zh-CN&user=_l5fPvEAAAAJ "赵新杰")密切合作。
 
-我很荣幸能够以**Kaggle Expert**的身份获得LLM竞赛的两枚银牌。此外，我连续两年（2023年、2024年）在[IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html)中获得冠军，并在Lanqiao Cup中获得全国一等奖。
+我很荣幸能够获得Kaggle LLM竞赛的两枚银牌并获得**Kaggle Expert**称号。此外，我连续两年（2023年、2024年）在[IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html)中获得冠军，并在蓝桥杯算法竞赛中获得全国一等奖。
 
 我正在积极寻求学术合作机会，欢迎通过以下邮箱与我联系：<auraithm@gmail.com>（个人邮箱）或 <evonexusx@gmail.com>。
 
@@ -42,7 +42,7 @@ redirect_from:
 # 🎖 荣誉与奖项
 - *2025.03* 在Kaggle竞赛**"LLMs - You Can't Please Them All"**中获得银牌。
 - *2024.07* 在**IEEE CEC 2024 Competition on Seeking Multiple Optima in Dynamic Environments**中获得冠军。
-- *2024.06* 在Lanqiao Cup中获得全国一等奖。
+- *2024.06* 在蓝桥杯中获得全国一等奖。
 - *2024.04* 在Kaggle竞赛**"LLM Prompt Recovery"**中获得银牌。
 - *2023.07* 在**IEEE CEC 2023 Competition on Seeking Multiple Optima in Dynamic Environments**中获得冠军。
 ---
@@ -154,6 +154,6 @@ Complex Question Answering通常需要对多个信息源进行reasoning并整合
 
 # 💻 实习经历
 <span class='anchor' id='-internships'></span>
-- *2024.10 - 2025.03（至今）*, Internship, Shanghai Artificial Intelligence Laboratory ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), China.
-- *2024.11 - 2025.03（至今）*, Research Assistant, The University of Tokyo, Japan.
-- *2025.01 - 2025.03（至今）*, Research Assistant, Science and Technology Bureau of Mengzi City, Honghe Prefecture, Yunnan Province, China **(State-owned enterprise)**.
+- *2024.10 - 2025.03（至今）*, 实习生, 上海人工智能实验室 ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), 中国。
+- *2024.11 - 2025.03（至今）*, 研究助理, 东京大学, 日本。
+- *2025.01 - 2025.03（至今）*, 研究助理, 云南省红河州蒙自市科技局, 中国**（国有企业）**。
