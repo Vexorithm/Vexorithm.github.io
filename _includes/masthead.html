@@ -3,32 +3,30 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
+        
         <ul class="visible-links">
           {% if page.lang == 'zh' %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/zh/#about-me">主页</a></li>
             {% for link in site.data.navigation.main_zh %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
+            <li class="masthead__menu-item masthead__menu-item--lang">
+              <span class="lang-item active">中文</span>
+              <span class="lang-separator">|</span>
+              <a href="/" class="lang-item">English</a>
+            </li>
           {% else %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
             {% for link in site.data.navigation.main %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
+            <li class="masthead__menu-item masthead__menu-item--lang">
+              <a href="/zh/" class="lang-item">中文</a>
+              <span class="lang-separator">|</span>
+              <span class="lang-item active">English</span>
+            </li>
           {% endif %}
         </ul>
-        
-        <div class="language-switcher">
-          {% for lang in site.data.navigation.languages %}
-            {% if page.lang == lang.code %}
-              <span class="lang-item active">{{ lang.title }}</span>
-            {% else %}
-              <a href="{{ lang.url }}" class="lang-item">{{ lang.title }}</a>
-            {% endif %}
-            {% unless forloop.last %}
-              <span class="lang-separator">|</span>
-            {% endunless %}
-          {% endfor %}
-        </div>
         
         <ul class="hidden-links hidden"></ul>
       </nav>
