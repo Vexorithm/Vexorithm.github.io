@@ -119,7 +119,7 @@ Trustworthiness Reasoning旨在使不完整信息多人游戏中的智能体能�
 
 ---
 
-## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA**
+## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA** (During RA at the University of Tokyo)
 
 **作者：**  Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li
 
@@ -136,9 +136,10 @@ Large Language Models (LLMs)的最新进展通过直接Chain-of-Thought (CoT) re
 
 ---
 
-## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**
+## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering** (During RA at the University of Tokyo)
 
 **作者：** **Ying Zhu\***, Zhao Xinjie, Irene Li
+**状态：** 已完成，待投中。
  
 ### 摘要
 

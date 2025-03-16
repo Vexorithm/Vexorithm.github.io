@@ -117,7 +117,7 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
 ---
 
-## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA**
+## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA** (During RA at the University of Tokyo)
 
 **Authors:** Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li.
 
@@ -134,9 +134,11 @@ Recent advances in large language models (LLMs) have significantly improved mult
 
 ---
 
-## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**
+## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering** (During RA at the University of Tokyo)
 
-**Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li
+**Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li （）
+
+**Status:** Completed, waiting to be submitted.
  
 ### Abstract
 
