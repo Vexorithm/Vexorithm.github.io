@@ -45,6 +45,7 @@ redirect_from:
 - *2024.06* 在蓝桥杯中获得全国一等奖。
 - *2024.04* 在Kaggle竞赛**"LLM Prompt Recovery"**中获得银牌。
 - *2023.07* 在**IEEE CEC 2023 Competition on Seeking Multiple Optima in Dynamic Environments**中获得冠军。
+
 ---
 
 <span class='anchor' id='-publications'></span>
@@ -139,6 +140,7 @@ Large Language Models (LLMs)的最新进展通过直接Chain-of-Thought (CoT) re
 ## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering** (During RA at the University of Tokyo)
 
 **作者：** **Ying Zhu\***, Zhao Xinjie, Irene Li
+
 **状态：** 已完成，待投中。
  
 ### 摘要
