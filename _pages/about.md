@@ -136,7 +136,7 @@ Recent advances in large language models (LLMs) have significantly improved mult
 
 ## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering** (During RA at the University of Tokyo)
 
-**Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li （）
+**Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li
 
 **Status:** Completed, waiting to be submitted. 
  
