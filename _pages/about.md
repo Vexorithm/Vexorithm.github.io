@@ -20,7 +20,7 @@ redirect_from:
 
 
 # About Me
-I am currently an junior undergraduate student at the School of Artificial Intelligence, Nanjing University of Information Science and Technology, where I am fortunate to be advised by [Peilan Xu](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜"). 
+Hello! I am currently an junior undergraduate student at the School of Artificial Intelligence, Nanjing University of Information Science and Technology, where I am fortunate to be advised by [Peilan Xu](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜"). 
 
 My current research focuses on evolutionary computation, LLM reasoning, multi-agent frameworks, and various LLM application research. Several papers have been submitted to the top journals and conferences in the field of artificial intelligence (such as ACM Transactions, IJCAI, ACL ...), and my representative work "Density-Assisted Evolutionary Dynamic Multimodal Optimization" has been accepted by ACM TELO.
 
@@ -137,7 +137,6 @@ Recent advances in large language models (LLMs) have significantly improved mult
 ## **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering** (During RA at the University of Tokyo)
 
 **Authors:** **Ying Zhu\***, Zhao Xinjie, Irene Li
-
 
 **Status:** Completed, waiting to be submitted. 
  
