@@ -29,7 +29,7 @@ Currently, I am undertaking an internship at [Shanghai AI Lab](https://www.shlab
 I am honoured to be recognized as a **Kaggle Expert** for winning two silver medals in LLM competitions. Additionally, I won the championship in the [IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html) for two consecutive years (2023,2024), and was awarded a national first prize in the Lanqiao Cup.
 
 I am actively seeking opportunities for academic collaboration and would be delighted to discuss potential partnerships. Please feel free to contact me at <auraithm@gmail.com> (personal email) or <evonexusx@gmail.com>.
-  
+
 ---
 
 # 🔥 News
