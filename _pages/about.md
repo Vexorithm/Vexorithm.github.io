@@ -155,5 +155,5 @@ Complex question answering often demands reasoning over multiple sources of info
 
 # 💻 Internships
 - *2025.01 - 2025.04 (now)*, Internship, Shanghai Artificial Intelligence Laboratory ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), China.
-- *2024.11 - 2025.02*, Research Assistant, The University of Tokyo, Japan.
+- *2025.09 - 2025.02*, Research Assistant, The University of Tokyo, Japan.
 
