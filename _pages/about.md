@@ -81,13 +81,13 @@ Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of s
 
 **Authors:** **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu.
 
-**Conference: IJCAI 2025** (Under the second reviewing phase)
+**Conference: EMNLP 2025** (Under Submission)
 
 **Code: <https://github.com/EvoNexusX/2025ZhuGRATR>**
 
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
-    <div class="badge">IJCAI 2025</div>
+    <div class="badge">EMNLP 2025</div>
     <img src='/images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
@@ -101,13 +101,13 @@ Trustworthiness reasoning aims to enable agents in multiplayer games with incomp
 
 **Authors:** Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu.
 
-**Conference: ACL 2025** (Under Review)
+**Conference: EMNLP 2025** (Under Submissioin)
 
 **Code: <https://github.com/EvoNexusX/2025DingNarrativeGuide>**
 
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
-    <div class="badge">ACL 2025</div>
+    <div class="badge">EMNLP 2025</div>
     <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
@@ -121,10 +121,10 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
 **Authors:** Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li.
 
-**Conference: ACL 2025** (Under Review)
+**Conference: EMNLP 2025** (Under Submission)
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
-    <div class="badge">ACL 2025</div>
+    <div class="badge">EMNLP 2025</div>
     <img src='/images/4.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  

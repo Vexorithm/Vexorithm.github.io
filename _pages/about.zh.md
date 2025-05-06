@@ -84,7 +84,7 @@ Dynamic Multimodal Optimization Problems (DMMOPs)要求算法能够在连续环�
 
 **作者：** **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu
 
-**会议：IJCAI 2025**（二审阶段）
+**会议：EMNLP 2025**（在投）
 
 **代码：<https://github.com/EvoNexusX/2025ZhuGRATR>**
 
@@ -104,7 +104,7 @@ Trustworthiness Reasoning旨在使不完整信息多人游戏中的智能体能�
 
 **作者：**  Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu
 
-**会议：ACL 2025**（审稿中）
+**会议：EMNLP 2025**（在投）
 
 **代码：<https://github.com/EvoNexusX/2025DingNarrativeGuide>**
 
@@ -124,7 +124,7 @@ Trustworthiness Reasoning旨在使不完整信息多人游戏中的智能体能�
 
 **作者：**  Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li
 
-**会议：ACL 2025**（审稿中）
+**会议：ACL 2025**（在投）
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">ACL 2025</div>
