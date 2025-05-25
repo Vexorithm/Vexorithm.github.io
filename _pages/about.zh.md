@@ -23,7 +23,7 @@ redirect_from:
 
 我的研究重点包括Evolutionary Computation、LLM Reasoning、Multi-Agent Frameworks以及各类LLM应用研究。多篇论文已投稿至人工智能领域的顶级期刊和会议（如ACM Transactions、IJCAI、ACL等），我的代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
 
-目前，我在[Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")实习，我的mentor是[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")。在这之前，我在东京大学担任Research Assistant，并与[赵新杰](https://scholar.google.com/citations?hl=zh-CN&user=_l5fPvEAAAAJ "赵新杰")密切合作。
+目前，我在[Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")实习，我的mentor是[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")。在这之前，我在东京大学担任Research Assistant。
 
 我很荣幸能够获得Kaggle LLM竞赛的两枚银牌并获得**Kaggle Expert**称号。此外，我连续两年（2023年、2024年）在[IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html)中获得冠军，并在蓝桥杯算法竞赛中获得全国一等奖。
 
