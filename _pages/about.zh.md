@@ -19,7 +19,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 关于我
-大家好！我目前是南京信息工程大学人工智能学院的一名本科在读学生，由[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")导师指导。
+大家好！我目前是南京信息工程大学人工智能专业的一名本科在读学生，由[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")导师指导。
+
+
 
 我的研究重点包括Evolutionary Computation、LLM Reasoning、Multi-Agent Frameworks以及各类LLM应用研究。多篇论文已投稿至人工智能领域的顶级期刊和会议（如ACM Transactions、IJCAI、ACL等），我的代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
 
