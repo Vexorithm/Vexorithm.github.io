@@ -51,11 +51,9 @@ redirect_from:
 <span class='anchor' id='-publications'></span>
 # 📝 论文
 - **[Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/pdf/10.1145/3723171)**, **Ying Zhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo, **ACM TELO**.
-- **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**, **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu, **IJCAI 2025 (Under the second reviewing phase)**.
-- **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**, Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu, **ACL 2025 (Under Review)**.
-- **[ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA](https://arxiv.org/abs/2503.06951)**, Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li, **ACL 2025 (Under Review)**.
-- **Adaptive Interruption and Trust-Weighted Voting for Secure Multi-Agent Collaboration in Complex Question Answering**, **Ying Zhu\***, Zhao Xinjie, Irene Li, **(Completed, waiting to be submitted.)**.
-
+- **[Swarm Intelligence Enhanced Reasoning: A Density-Driven Framework for LLM-Based Multi-Agent Optimization]**, **Ying Zhu**, Peilan Xu, Jiahao Huang, Xin Lin, Wenjian Luo, **ACM TELO**.
+- **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**, **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu, **EMNLP 2025 (Under review.)**.
+- **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**, Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu, **ACL 2025 (Under Review)**
 ---
 
 <span class='anchor' id='-research-overview'></span>
@@ -80,6 +78,23 @@ Dynamic Multimodal Optimization Problems (DMMOPs)要求算法能够在连续环�
 
 ---
 
+## **[Swarm Intelligence Enhanced Reasoning: A Density-Driven Framework for LLM-Based Multi-Agent Optimization]
+
+**作者：** **Ying Zhu\***, Heng Zhou, Rui Su, Peiqin Zhuang, LEI BAI 
+**会议：NeurIPS 2025**（在投）
+
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">NeurIPS 2025</div>
+    <img src='/images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+ 
+### 摘要
+
+最近，人们提出了许多方法来进一步丰富大型语言模型(LLMs)在推理场景中的复杂问题解决能力，比如思维链(Chain-of-Thought, CoT)提示和多智能体辩论(Multi-Agent Debate, MAD)。然而，由于缺乏寻找最优解的能力，这些方法可能在解决复杂问题时失败。群智能(Swarm Intelligence)在传统优化问题领域一直是一个强大的工具。为此，我们提出通过引入一种新颖的基于智能体的群智能(Agent-based Swarm Intelligence, ASI)范式，将群智能整合到推理过程中。在这个范式中，我们将LLM推理表述为一个优化问题，并使用群智能方案来指导一组基于LLM的智能体协作搜索最优解。为了避免群智能陷入局部最优，我们进一步开发了一个群智能增强推理(Swarm Intelligence Enhancing Reasoning, SIER)框架，该框架采用密度驱动策略来增强推理能力。具体来说，我们提出使用核密度估计和非支配排序来同时优化解决方案的质量和多样性。在这种情况下，SIER通过扩展推理路径的多样性来有效增强解空间探索。此外，我们还使用步骤级质量评估来帮助智能体通过纠正低质量的中间步骤来提高解决方案质量。然后，我们使用质量阈值来动态控制探索的终止和候选步骤的选择，从而实现更灵活和高效的推理过程。我们在七个广泛使用的数学推理基准测试上进行了大量实验，包括MATH-500、MMLU-STEM等。正如预期的那样，我们的方法在性能上始终优于CoT方法和现有的奖励引导方法，特别是在复杂问题上。这证明了我们提出的利用群智能来增强推理的方法的有效性。
+
+ 
+---
+
 ## **[GRATR: Zero-Shot Evidence Graph Retrieval-Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)**
 
 **作者：** **Ying Zhu\***, Shengchang Li\*, Ziqian Kong, Qiang Yang, Peilan Xu
@@ -90,7 +105,7 @@ Dynamic Multimodal Optimization Problems (DMMOPs)要求算法能够在连续环�
 
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
-    <div class="badge">IJCAI 2025</div>
+    <div class="badge">EMNLP 2025</div>
     <img src='/images/fig2_00.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
@@ -120,6 +135,7 @@ Trustworthiness Reasoning旨在使不完整信息多人游戏中的智能体能�
 
 ---
 
+<!-- 
 ## **ReAgent: Reversible Multi-Agent Reasoning for Knowledge-Enhanced Multi-Hop QA** (During RA at the University of Tokyo)
 
 **作者：**  Zhao Xinjie, Fan Gao, Rui Yang, Yingjian Chen, Yuyang Wang, **Ying Zhu**, Jiacheng Tang, Irene Li
@@ -147,7 +163,7 @@ Large Language Models (LLMs)的最新进展通过直接Chain-of-Thought (CoT) re
 
 Complex Question Answering通常需要对多个信息源进行reasoning并整合不同形式的knowledge。然而，依赖单一chain-of-thought可能导致error propagation，系统仍然容易受到malicious或misleading inputs的影响。在本文中，我们提出了一个enhanced multi-agent framework，引入fine-grained interruption ("breakpoint")机制和dynamic trust-weighted voting策略，以提高multi-hop QA的robustness和explainability。我们的方法整合了Bayesian-inspired agent credibility updates、segment-by-segment answer generation和mathematically grounded interruption strategy，以限制error propagation。我们描述了系统的theoretical underpinnings和practical workflow，然后展示了interruption triggers、weighted voting和multi-agent collaboration如何协同产生更accurate和secure的答案。在benchmark QA datasets上的experiments证实了correctness、stability和interpretability的显著改进，显示出在adversarial或high-stakes环境中更广泛应用的潜力。
  
----
+--- -->
 
 # 📖 教育经历
 <span class='anchor' id='-educations'></span>
