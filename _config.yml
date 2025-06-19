@@ -8,10 +8,10 @@
 # Site Settings
 title                    : "Ying Zhu"
 description              : ""
-repository               : "Auraithm/Auraithm.github.io"
+repository               : "Vexorithm/Vexorithm.github.io"
 google_scholar_stats_use_cdn : true
 baseurl                  : ""
-url                      : "https://auraithm.github.io"
+url                      : "https://vexorithm.github.io"
 
 # Multilingual settings
 default_lang             : "en"
@@ -44,7 +44,8 @@ author:
   pubmed                 :  
   googlescholar          : ""
   email                  : "auraithm@gmail.com"
-  researchgate           :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate           :  "https://www.researchgate.net/profile/Ying-Zhu-134?ev=hdr_xprf"
+  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri                    :
   bitbucket              :
   codepen                :
@@ -52,7 +53,7 @@ author:
   flickr                 :
   facebook               :
   foursquare             :
-  github                 : "Auraithm"
+  github                 : "Vexorithm"
   google_plus            :
   keybase                :
   instagram              :
