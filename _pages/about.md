@@ -83,7 +83,7 @@ Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of s
 
 <div style="text-align: center; margin: 0 auto; max-width: 50%;">
     <div class="badge">NeurIPS 2025</div>
-    <img src='/images/SIER.jpg' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/SIER.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
