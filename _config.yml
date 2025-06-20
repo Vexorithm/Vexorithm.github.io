@@ -34,9 +34,9 @@ author:
     en                   : "Ying Zhu"
     zh                   : "朱影"
   avatar                 : "images/android-chrome-512x512.png"
-  bio:
-    en                   : "Nanjing University of Information Science and Technology"
-    zh                   : "南京信息工程大学"
+  # bio:
+  #   en                   : "Nanjing University of Information Science and Technology"
+  #   zh                   : ""
   location:
     en                   : "Shanghai, China"
     zh                   : "中国上海"
