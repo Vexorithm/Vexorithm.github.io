@@ -21,9 +21,7 @@ redirect_from:
 # 关于我
 大家好！我目前是南京信息工程大学人工智能学院的一名本科在读学生，有幸得到[许沛澜](https://scholar.google.ca/citations?hl=zh-CN&user=MYTn5zYAAAAJ "许沛澜")导师的指导。
 
-我的研究重点包括LLM推理、多智能体框架、群智能以及各类LLM应用研究。多篇论文已投稿至人工智能领域的顶级期刊和会议（如ACM Transactions、ACL、NeurIPS、EMNLP等），我的代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
-
-目前，我在[上海人工智能实验室](https://www.shlab.org.cn/ "上海人工智能实验室")实习，由[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")导师指导。
+目前，我在[上海人工智能实验室](https://www.shlab.org.cn/ "上海人工智能实验室")实习，由[苏锐](https://scholar.google.ca/citations?hl=zh-CN&authuser=2&user=tLLmRBwAAAAJ "苏锐")和[白磊](https://scholar.google.com/citations?user=sakOO04AAAAJ&hl=en&oi=ao "白磊")老师指导。我的研究重点包括LLM推理、多智能体框架、群智能以及各类LLM应用研究。多篇论文已投稿至人工智能领域的顶级期刊和会议（如ACM Transactions、ACL、NeurIPS、EMNLP等），我的代表作"Density-Assisted Evolutionary Dynamic Multimodal Optimization"已被ACM TELO接收。
 
 我很荣幸能够获得**Kaggle Expert**称号，在LLM竞赛中获得两枚银牌。此外，我连续两年（2023年、2024年）在[IEEE CEC Competition on Seeking Multiple Optima in Dynamic Environments](http://mi.hitsz.edu.cn/activities/smode_cec2023/index.html)中获得冠军，并在蓝桥杯算法竞赛中获得全国一等奖。
 
