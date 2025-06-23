@@ -32,7 +32,9 @@ I am actively seeking opportunities for academic collaboration and would be deli
 
 # 🔥 News
 - *2025.03*: &nbsp;🎉🎉 Paper "Density-Assisted Evolutionary Dynamic Multimodal Optimization" is accepted by **ACM Transactions on Evolutionary Learning and Optimization**.
+
 - *2025.03*: &nbsp;🎉🎉 Won a silver medal at Kaggle competitions "LLMs - You Can't Please Them All".
+
 ---
 
 # 🎖 Honors and Awards

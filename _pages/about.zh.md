@@ -31,7 +31,9 @@ redirect_from:
 
 <span class='anchor' id='-news'></span>
 # 🔥 最新动态
+
 - *2025.03*: &nbsp;🎉🎉 论文"Density-Assisted Evolutionary Dynamic Multimodal Optimization"被**ACM Transactions on Evolutionary Learning and Optimization**接收。
+
 - *2025.03*: &nbsp;🎉🎉 在Kaggle竞赛"LLMs - You Can't Please Them All"中获得银牌。
 
 ---
