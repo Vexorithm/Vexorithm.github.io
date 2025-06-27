@@ -77,7 +77,7 @@ Dynamic multimodal optimization problems (DMMOPs) demand algorithms capable of s
 
 ---
 
-## **[Swarm Intelligence Enhanced Reasoning: A Density-Driven Framework for LLM-Based Multi-Agent Optimization](https://dl.acm.org/doi/pdf/10.1145/3723171)**
+## **[Swarm Intelligence Enhanced Reasoning: A Density-Driven Framework for LLM-Based Multi-Agent Optimization](https://www.arxiv.org/abs/2505.17115)**
 
 **Authors:** **Ying Zhu\***, Heng Zhou, Rui Su, Peiqin Zhuang, Lei Bai 
 
