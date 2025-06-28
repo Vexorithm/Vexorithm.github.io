@@ -135,7 +135,7 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
  ---
 
-## **[Black-Sheep Agent: Semantic Sabotage in Multi-Agent Language Games]**
+## **Black-Sheep Agent: Semantic Sabotage in Multi-Agent Language Games**
 **Authors:** Zhao Xinjie*,  **Ying Zhu\***, Jiacheng Tang
 
 **Conference: EMNLP 2025** (Under Review)
