@@ -118,7 +118,7 @@ redirect_from:
 
 ## **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**
 
-**作者：** Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu
+**作者：** Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu
 
 **会议：EMNLP 2025**（在投）
 
@@ -136,12 +136,29 @@ redirect_from:
 
 ---
 
+## **[Black-Sheep Agent: Semantic Sabotage in Multi-Agent Language Games]
+**Authors:** Zhao Xinjie*,  **Ying Zhu\***, Jiacheng Tang
+
+**Conference: EMNLP 2025** (Under Review)
+
+
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">EMNLP 2025</div>
+    <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+ 
+### Abstract
+
+大型语言模型越来越多地被用于公共决策，从参与式预算到在线慈善拍卖。然而，现有的防御措施主要针对单次提示注入，而忽视了更隐蔽的*多轮、多智能体*劝说形式。我们引入了*语义“黑羊”智能体*的概念：一个恶意参与者，系统地利用语言学原理操纵集体廉价谈话，从而扭曲博弈均衡。为了形式化和基准化这一威胁，我们将**语义破坏**定义为廉价谈话的Stackelberg竞赛，并提出*BlackSheep–Game*，这是第一个将四种语言哲学攻击向量——(*i*) 预设注入，(*ii*) 词汇-收益歧义，(*iii*) Gricean准则反转，和(*iv*) 言语行为重映射——应用于五个经典社会困境（迭代公共物品、Vickrey拍卖、协调、Stackelberg分配和社区预算谈判）的框架。即使是单个黑羊智能体（占参与者的5%）也能将纳什均衡偏移高达41%，并在绕过最先进的毒性和越狱过滤器的同时，侵蚀整体福利18-46%。基于稳健的多智能体学习和语义平滑的见解，我们进一步提出了一种可部署的防护措施，能够在安全性与实时可用性之间取得平衡。我们的结果为可信赖的LLM集体铺平了道路，并强调了防御语言级别对手以保护公民决策的紧迫性。
+
+---
+
 # 📖 教育经历
 <span class='anchor' id='-educations'></span>
-- *2022.09 - 2025.03（至今）*, 南京信息工程大学人工智能学院。
+- *2022.09 - 2025.06（至今）*, 南京信息工程大学人工智能学院。
 
 ---
 
 # 💻 实习经历
 <span class='anchor' id='-internships'></span>
-- *2025.01 - 2025.04（至今）*, 实习生, 上海人工智能实验室 ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), 中国。
+- *2025.01 - 2025.06（至今）*, 实习生, 上海人工智能实验室 ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), 中国。

@@ -117,7 +117,7 @@ Trustworthiness reasoning aims to enable agents in multiplayer games with incomp
 
 ## **[Narrative-Driven Travel Planning: Geocultural-Grounded Script Generation with Evolutionary Itinerary Optimization](https://arxiv.org/abs/2502.14456)**
 
-**Authors:** Ran Ding\*, Ziyu Zhang\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu.
+**Authors:** Ziyu Zhang\*, Ran Ding\*, **Ying Zhu\***, Ziqian Kong, Peilan Xu.
 
 **Conference: EMNLP 2025** (Under Review)
 
@@ -135,11 +135,29 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
  ---
 
+## **[Black-Sheep Agent: Semantic Sabotage in Multi-Agent Language Games]
+**Authors:** Zhao Xinjie*,  **Ying Zhu\***, Jiacheng Tang
+
+**Conference: EMNLP 2025** (Under Review)
+
+
+<div style="text-align: center; margin: 0 auto; max-width: 100%;">
+    <div class="badge">EMNLP 2025</div>
+    <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+ 
+### Abstract
+
+Large language models are increasingly entrusted with public-facing decisions, from participatory budgeting to online charity auctions. Yet existing defenses largely address single-shot prompt injection and overlook more insidious forms of *multiround, multi-agent* persuasion. We introduce the notion of a *semantic “black-sheep” agent*: a malicious participant that systematically exploits linguistic principles to manipulate collective cheap-talk and thereby distort game equilibria. To formalize and benchmark this threat, we define **semantic sabotage** as a cheap-talk Stackelberg contest and present *BlackSheep–Game*, the first framework to operationalize four language-philosophy attack vectors—(*i*) presupposition injection, (*ii*) lexical–payoff ambiguity, (*iii*) Gricean maxim inversion, and (*iv*) speech-act remapping—across five canonical social dilemmas (Iterated Public Goods, Vickrey Auction, Coordination, Stackelberg Allocation, and Community-Budget Negotiation). Even a single black-sheep agent (5% of participants) shifts Nash equilibria by up to 41% and erodes aggregate welfare by 18–46% while bypassing state-of-the-art toxicity and jailbreak filters. Building on insights from robust multi-agent learning and semantic smoothing, we further propose a deployable guardrail that reconciles security with real-time usability. Our results pave the way for trustworthy LLM collectives and highlight the urgent need to defend civic decision-making against language-level adversaries.
+
+--- 
+
+
 # 📖 Educations
-- *2022.09 - 2025.03 (now)*, the School of Artificial Intelligence, Nanjing University of Information Science and Technology.
+- *2022.09 - 2025.06 (now)*, the School of Artificial Intelligence, Nanjing University of Information Science and Technology.
 
 ---
 
 # 💻 Internships
-- *2025.01 - 2025.04 (now)*, Internship, Shanghai Artificial Intelligence Laboratory ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), China.
+- *2025.01 - 2025.06 (now)*, Internship, Shanghai Artificial Intelligence Laboratory ([Shanghai AI Lab](https://www.shlab.org.cn/ "上海人工智能实验室")), China.
 
