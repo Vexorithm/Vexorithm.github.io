@@ -58,7 +58,7 @@ redirect_from:
 ---
 
 <span class='anchor' id='-research-overview'></span>
-# 💬 研究概述
+# 💬 研究概述（“*”表明共同贡献）
 
 ## **[Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/pdf/10.1145/3723171)**
 
@@ -144,7 +144,7 @@ redirect_from:
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">EMNLP 2025</div>
-    <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/5.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract

@@ -56,7 +56,7 @@ I am actively seeking opportunities for academic collaboration and would be deli
 
 ---
 
-# 💬 Research Overview
+# 💬 Research Overview ("*" indicates equal contribution)
 
 ## **[Density-Assisted Evolutionary Dynamic Multimodal Optimization](https://dl.acm.org/doi/pdf/10.1145/3723171)**
 
@@ -143,7 +143,7 @@ To enhance tourists' experiences and immersion, this paper proposes a narrative-
 
 <div style="text-align: center; margin: 0 auto; max-width: 100%;">
     <div class="badge">EMNLP 2025</div>
-    <img src='/images/3.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src='/images/5.png' alt="sym" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
  
 ### Abstract
